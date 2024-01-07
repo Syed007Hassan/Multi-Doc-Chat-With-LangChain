@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.document_loaders import PyPDFLoader
 
