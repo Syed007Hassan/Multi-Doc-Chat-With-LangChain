@@ -10,7 +10,7 @@ from langchain.llms import OpenAI
 load_dotenv('.env')
 
 # load the document as before
-loader = PyPDFLoader('./docs/RachelGreenCV.pdf')
+loader = PyPDFLoader('./docs/SYED_HASSAN_RESUME.pdf')
 documents = loader.load()
 
 # we split the data into chunks of 1,000 characters, with an overlap
