@@ -5,7 +5,7 @@ from langchain_community.document_loaders import PyPDFLoader
 
 load_dotenv('.env')
 
-pdf_loader = PyPDFLoader('./docs/RachelGreenCV.pdf')
+pdf_loader = PyPDFLoader('./docs/SYED_HASSAN_RESUME.pdf')
 documents = pdf_loader.load()
 
 chain = load_qa_chain(llm=OpenAI())
