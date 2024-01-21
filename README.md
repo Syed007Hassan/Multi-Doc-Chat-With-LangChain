@@ -14,18 +14,14 @@ and remembers the chat history and recent conversations.
 It uses embeddings and vector stores to send the relevant information to the LLM prompt. Also provides a chat interface
 via the terminal using stdin and stdout. Press `q` to escape the chat window.
 
-I wrote an article which explores some of the concepts here, as well as walks through building each of the scripts.
-[Can read that here](https://medium.com/@ssmaameri/building-a-multi-document-reader-and-chatbot-with-langchain-and-chatgpt-d1864d47e339)
-
 
 ## Getting started
 
 
-Clone the repository, set up the virtual environment, and install the required packages
+Clone the repository, set up the virtual environment, and install the required packages. Use Python 3.11.5 to avoid any breaking changes for LangChain
 
 ```
-git clone git@github.com:smaameri/multi-doc-chatbot.git
-cd multi-doc-chatbot
+git clone https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain.git
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
@@ -41,12 +37,15 @@ Now copy your OpenAI API key into the `.env` file, and save the file. It should 
 `OPENAI_API_KEY=sk-`
 
 ## Start chatting
-Kick of the multi-doc chatbot, and start interacting with your files. Place any files you would like to
+Kick off the **single-doc.py**, **single-long-doc.py** and **multi-doc-chatbot.py**, and start interacting with your files. Place any files you would like to
 interact with inside the `/docs` folder. Enter `q` to exit the prompt at any time.
 
 ```python
-python3 multi-doc-chatbot.py
+python3 single-doc.py
 ```
+
+![image](https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain/assets/104893311/be60c727-ff22-48ae-b996-c500a2c79aa9)
+
 
 It's not perfect, and it does give strange answers sometimes, but it does get a basic setup running. It does show 
 that getting a basic Q&A chain working is not enough to create a really good chatbot. To get that working, you will
