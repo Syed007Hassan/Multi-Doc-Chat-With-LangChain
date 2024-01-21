@@ -1,0 +1,25 @@
+﻿S. M. HASSAN ALIS O F T W A R E   E N G I N E E R -   B A C K E N D / F U L L S T A C K
++92 3353215848 | syed007hassan@gmail.com | linkedin.com/in/syedmuhammedhassanali8github.com/Syed007Hassan | medium.com/@syed007hassan | Karachi, Pakistan
+EDUCATION
+Bachelor in Software Engineering
+FAST-NUCES                                                                                                                                                                                 CGPA: 3.67
+2020 - Present, Karachi, Pk
+WORK EXPERIENCE
+Software Developer Intern 
+ONE Technology Services, USA
+6/2023 - 9/2023, Karachi, Pk
+PROJECTS
+Developed modular REST APIs in Flask and Express to power a chatbot, enhancing integration and flexibility.Implemented and harnessed the power of Google's BARD API to revolutionize the chatbot's natural languageprocessing capabilities, resulting in a 40% increase in user satisfaction and a 50% reduction in response time.Deployed APIs on Microsoft Azure App Service, ensuring internet accessibility for the chatbot.Built an end-to-end chatbot using Flask with a clean MVC architecture, ensuring maintainable code.Seamlessly integrated the chatbot with .NET APIs for efficient cross-system interactions.Created an intuitive Angular chatbot interface that connected seamlessly to the Flask backend.Integrated the chatbot with an ERP system, enabling data querying and actions for users.Established vendor communication via email using Google's Palm API, streamlining order placements.Automated the process of order emails and invoice generation using SMTP, improving efficiency.Utilized the Palm API for PDF vectorization and implemented semantic search in a ChromaDB database for quick andaccurate answers to user queries.
+Utilized LangChain to develop a NextJs application empowering users to perform database queries using NLP.Implemented a SQL query generator that seamlessly executes queries on connected schemas via TypeORM.Used MongoDB to maintain the history of recent prompts, generated SQL queries, and data retrieved from the queriesin the sidebar component.Successfully migrated the ExpressJS project to NestJS, enhancing the performance of the SQL Agent component.Containerized each service using Docker Compose, for quick setup and deployment.Fostered collaboration and open-source development by contributing the project to Hacktoberfest'23.
+ Chat To Your Database (NestJs, NextJs, ExpressJs, PostgreSQL, Redis, MongoDb, Docker, OpenAI)
+Engineered an automated solution using Dockerode and Docker Remote API for seamless PostgreSQL databaserestoration, reducing manual intervention in multi-container setups.Utilized Docker daemon socket and Dockerode to streamline container commands, showcasing expertise incontainerization concepts and efficient service communicationDeveloped a concise API with Dockerode, enabling one-off command execution within containers for effectivemanagement and restoration of SQL database dumps.Improved the development workflow by handling the complexities of volume mounting.
+Restoring Database Using Dockerode (NestJs, PostgreSQL, Docker)
+ACHIEVEMENTS
+Received Dean's Honor List in Fall 2020, Spring 2021, Spring 2022, and Fall 2022 SemestersAwarded the Gold Medal for achieving the highest GPA in the Fall 2020 semester.Received the Silver Medal for achieving the second-highest GPA in the Spring 2022 semester.Selected by Microsoft for Startups Founders Hub by pitching FYP idea.
+DEAN'S HONOR LIST/MEDALS
+SKILLS
+Technical Skills: JavaScript/TypeScript, Python (Flask), NodeJS (ExpressJS/NestJS), REST API,  GraphQL, MySQL,PostgreSQL, MongoDB, Redis, ReactJS, NextJS, Angular, Git, Docker, AWS, Azure, Azure DevOps, CICD, Unit testing
+Interest: System Design, Distributed Systems, DevOps, Open-Source Projects, Microservices, Generative AI
+CERTIFICATES
+Azure Fundamentals (10Pearls Uni), NodeJS (HackerRank), Intro to Generative AI (Google Cloud), SQL (HackerRank)  
+Problem Solving (HackerRank), Docker Training (KodeKloud)
