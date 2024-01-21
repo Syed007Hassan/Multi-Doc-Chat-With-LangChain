@@ -37,14 +37,22 @@ Now copy your OpenAI API key into the `.env` file, and save the file. It should 
 `OPENAI_API_KEY=sk-`
 
 ## Start chatting
-Kick off the **single-doc.py**, **single-long-doc.py** and **multi-doc-chatbot.py**, and start interacting with your files. Place any files you would like to
+Kick off the **multi-doc-chatbot.py**, and start interacting with your files. Place any files you would like to
 interact with inside the `/docs` folder. Enter `q` to exit the prompt at any time.
 
 ```python
-python3 single-doc.py
+python3 multi-doc-chatbot.py
 ```
 
 ![image](https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain/assets/104893311/be60c727-ff22-48ae-b996-c500a2c79aa9)
+
+![image](https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain/assets/104893311/7d2f4d91-4963-4683-b766-a30e8e2a100d)
+
+![image](https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain/assets/104893311/e854eaab-32b2-4ed4-9369-084be67e2d59)
+
+![image](https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain/assets/104893311/64c8a342-8fcb-4b20-abe6-3dc13e533ec5)
+
+![image](https://github.com/Syed007Hassan/Multi-Doc-Chat-With-LangChain/assets/104893311/53f4254d-1d9a-401f-b4d6-729bce013bcd)
 
 
 It's not perfect, and it does give strange answers sometimes, but it does get a basic setup running. It does show 
@@ -53,4 +61,3 @@ need to dig deeper and explore the concepts and ideas in more detail. Possibilit
 templates, using different LLMs which can accept more tokens and context lengths, creating an agent to refine the results,
 and whatever else you can think of 🙂
 
-![Screenshot 2023-05-20 at 12.06.43 PM.png](./img/app-screenshot.png)
