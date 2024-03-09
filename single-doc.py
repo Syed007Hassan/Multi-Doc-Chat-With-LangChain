@@ -25,7 +25,7 @@ pdf_loader = PyPDFLoader('temp.pdf')
 documents = pdf_loader.load()
 
 chain = load_qa_chain(llm=OpenAI())
-query = 'How much does the resume of the candidate match the job description?'
+query = "As a Resume Reviewer, your task is to review resumes and provide feedback on the candidate's qualifications, education, skills, and experience in comparison to the job description. Your goal is to give a detailed constructive summary that will help the recruiter assess the candidate better."
 response = chain.run(input_documents=documents,
                      question=jobDescription + query)
 print(response)
