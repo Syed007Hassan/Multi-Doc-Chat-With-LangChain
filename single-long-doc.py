@@ -1,16 +1,31 @@
 import os
+import requests
 from dotenv import load_dotenv
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 
 load_dotenv('.env')
 
+# URL of the PDF
+url = "https://syncflow-bucket.s3.amazonaws.com/resume/Ehtesham-Zafar-CV.pdf"
+
+# Send GET request
+response = requests.get(url)
+
+# Ensure the request was successful
+response.raise_for_status()
+
+# Write the content of the request to a file
+with open("temp.pdf", "wb") as f:
+    f.write(response.content)
+
+
 # load the document as before
-loader = PyPDFLoader('./docs/SYED_HASSAN_RESUME.pdf')
+loader = PyPDFLoader('temp.pdf')
 documents = loader.load()
 
 # we split the data into chunks of 1,000 characters, with an overlap
